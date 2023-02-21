@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Plan your travel with ease and Experience The World ">
+        <meta name="keywords" content="Hotel,Stay,Booking,Train,Cab,Flight">
+        <meta name="author" content="Prabha Joan">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <title>SarKarSevakKendra- PAN</title>
+
+        <link rel="icon" type="images/x-icon" href="IMG/Tlogo_600px.jpeg" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />  <!--CDN inclusion for favicon provider-->
+    </head>
+
+    <body style="color:orange;" bgcolor="black">
+                    
+        <form method="post" enctype="multipart/form-data">
+            <table width="100%" align="center">
+                <tr >
+                    <td width="100%" align="center">
+                        <h3>Apply PAN Card</h3>                        
+                    </td>
+                </tr>
+                <tr  bgcolor="purple">
+                    <td >
+                        <strong>Service Required</strong>                      
+                    </td>                    
+                </tr>
+            </table>
+            <br>
+            <table width="100%" align="left">
+                <tr>
+                    <td width="10%">
+                        Applying for &nbsp;&ast;                        
+                    </td>
+                    <td width="30%">
+                        <select name="drpservicesel" id="">
+                            <option value="op1">New PAN</option>
+                            <option value="op2">Update PAN</option>
+                        </select>    
+                    </td>
+                </tr>
+                <tr>
+                    <td >
+                        Type of Application &nbsp;&ast;
+                    </td>
+                    <td>
+                        <input type="radio" name="rbApplcntype" value="Normal" checked>Normal
+                        <input type="radio" name="rbApplcntype" value="Tatkal">Tatkal
+                    </td>
+                </tr>
+                <tr>
+                    <td >
+                        Type of Passport Booklet &nbsp;&ast;
+                    </td>
+                    <td>
+                        <input type="radio" name="rbppbklt" value="Normal" checked>30 Pges
+                        <input type="radio" name="rbppbklt" value="Tatkal">60 Pages
+                    </td>
+                </tr>                
+            </table>
+            <br>
+            <table width="100%" align="center">                
+                <tr  bgcolor="purple">
+                    <td >
+                        <strong>Application Details</strong>                      
+                    </td>                    
+                </tr>
+            </table>
+            <br>            
+            <table width="100%" align="left">                
+                <tr>
+                    <td width="10%">
+                        Applicant FullName &nbsp;&ast;                        
+                    </td>
+                    <td  width="30%">
+                        <input type="text" name="txtFullName">   
+                    </td>
+                    <td width="10%">
+                        Applicant photo &nbsp;&ast;                        
+                    </td>
+                    <td  width="30%">
+                        <input type="file" name="flPhoto" id="" accept="image/png, image/jpeg">
+                    </td>
+                </tr>
+                <tr>
+                    <td width="10%">
+                        Surname &nbsp;&ast;                        
+                    </td>
+                    <td  width="30%">
+                        <input type="text" name="txtsurName">   
+                    </td>
+                </tr>
+                <tr>
+                    <td width="10%">
+                        Gender &nbsp;&ast;                        
+                    </td>
+                    <td width="30%">
+                        <select name="drpGender" id="">
+                            <option value="op1">Male</option>
+                            <option value="op2">Female</option>
+                            <option value="op3">Other</option>
+                        </select>    
+                    </td>
+                </tr>
+                <tr>
+                    <td >
+                        Are you known by other names(aliases)?* &nbsp;&ast;
+                    </td>
+                    <td>
+                        <input type="radio" name="rbAlias" value="Yes" >Yes
+                        <input type="radio" name="rbAlias" value="No" checked>No
+                    </td>
+                </tr>
+                <tr>
+                    <td >
+                        Have you ever changed your name? &nbsp;&ast;
+                    </td>
+                    <td>
+                        <input type="radio" name="rbchnname" value="Yes" >Yes
+                        <input type="radio" name="rbchnname" value="No" checked>No
+                    </td>
+                </tr>   
+                <tr>
+                    <td >
+                        Date of Birth(DD/MM/YYYY) &nbsp;&ast;
+                    </td>
+                    <td>
+                        <input type="date" name="txtDOB">
+                    </td>
+                </tr>                
+            </table>
+            <br>
+            <table width="100%" align="center">                
+                <tr  bgcolor="purple">
+                    <td >
+                        <strong>Place of Birth</strong>                      
+                    </td>                    
+                </tr>
+            </table>
+            <br>
+            <table width="100%" align="left">                
+                <tr>
+                    <td width="10%">
+                        Is your Place of Birth out of India &nbsp;&ast;                        
+                    </td>
+                    <td  width="30%">
+                        <input type="radio" name="rbOutofIndia" value="Yes" >Yes
+                        <input type="radio" name="rbOutofIndia" value="No" checked>No  
+                    </td>
+                </tr>
+                <tr>
+                    <td width="10%">
+                        Village or Town or City &nbsp;&ast;                        
+                    </td>
+                    <td  width="30%">
+                        <input type="text" name="txtPlace">   
+                    </td>
+                </tr>
+                <tr>
+                    <td width="10%">
+                        Marital Status &nbsp;&ast;                        
+                    </td>
+                    <td width="30%">
+                        <select name="drpMaritalStatus" id="">
+                            <option value="op1">Single</option>
+                            <option value="op2">Married</option>
+                        </select>    
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td width="10%">
+                        PAN(if available)
+                    </td>
+                    <td width="30%">
+                        <input type="file" name="flPAN" id="" accept="image/pdf, image/jpeg, image/png">
+                    </td>
+                    <td width="10%">
+                        VoterID(if available)
+                    </td>
+                    <td width="30%">
+                        <input type="file" name="flVoter" id="" accept="image/pdf, image/jpeg, image/png">
+                    </td>
+                </tr>
+                <tr>
+                    <td width="10%">
+                        Employment Type &nbsp;&ast;                        
+                    </td>
+                    <td width="30%">
+                        <select name="drpEmployment" id="">
+                            <option value="op1">Professional</option>
+                            <option value="op2">Student</option>
+                            <option value="op2">other</option>
+                        </select>    
+                    </td>
+                    <!--
+                    <td width="10%">
+                        Is either of your parent(in case of minor)/spouse,a Government servant? &nbsp;&ast;                        
+                    </td>
+                    <td width="30%">
+                        <select name="drpdependant" id="">
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
+                            
+                        </select>    
+                    </td>
+                    -->
+                </tr> 
+                <tr>
+                    <td width="10%">
+                        Educational Qualification &nbsp;&ast;                        
+                    </td>
+                    <td width="30%">
+                        <select name="drpEduqual" id="">
+                            <option value="op1">Masters degree</option>
+                            <option value="op2">Bachelors degree</option>
+                            <option value="op3">Phd</option>
+                            <option value="op4">Diploma</option>
+                            <option value="op1">12th</option>
+                            <option value="op2">Below 12th</option>
+                            <option value="op5">other</option>
+                        </select>    
+                    </td>
+                    <td width="10%">
+                        Are you eligible for ECNR category? &nbsp;&ast;                        
+                    </td>
+                    <td width="30%">
+                        <select name="drpECNR" id="">
+                            <option value="op1">Yes</option>
+                            <option value="op2">No</option>
+                            
+                        </select>    
+                    </td>
+                </tr>  
+                <tr>
+                    <td >
+                        Visible Distinguishing Mark
+                    </td>
+                    <td>
+                        <input type="text" name="txtMole">
+                    </td>
+                </tr>  
+                <tr>
+                    <td width="10%">
+                        Aadhaar(if available)
+                    </td>
+                    <td width="30%">
+                        <input type="file" name="flAadhaar" id="" accept="image/pdf, image/jpeg, image/png">
+                    </td>
+                </tr>              
+            </table>
+            <br>
+            <table width="100%" align="center">                
+                <tr  bgcolor="purple">
+                    <td >
+                        <strong>Family Details</strong>                      
+                    </td>                    
+                </tr>
+            </table>
+            <br>            
+            <table width="100%" align="left">                
+                <tr>
+                    <td width="10%">
+                        Father/Guardian Name &nbsp;&ast;                        
+                    </td>
+                    <td  width="30%">
+                        <input type="text" name="txtFatherName">   
+                    </td>
+                    <td width="10%">
+                        Mother FullName &nbsp;&ast;                        
+                    </td>
+                    <td  width="30%">
+                        <input type="text" name="txtMotherName">   
+                    </td>                    
+                </tr>
+            </table>
+            <br>
+            <table width="100%" align="center">                
+                <tr  bgcolor="purple">
+                    <td >
+                        <strong>Residential Address Details</strong>                      
+                    </td>                    
+                </tr>
+            </table>
+            <br>            
+            <table width="100%" align="left">                
+                <tr>
+                    <td width="10%">
+                        Is your present address out of India &nbsp;&ast;                        
+                    </td>
+                    <td  width="30%">
+                        <input type="radio" name="rbOutofIndia" value="Yes" >Yes
+                        <input type="radio" name="rbOutofIndia" value="No" checked>No
+                    </td>                   
+                                       
+                </tr>
+                <tr>
+                    <td width="10%">
+                        House No. and Street Name &nbsp;&ast;                        
+                    </td>
+                    <td  width="30%">
+                        <input type="text" name="txtstreet">
+                    </td>                   
+                                       
+                </tr>
+                <tr>
+                    <td width="10%">
+                        Village or Town or City &nbsp;&ast;                        
+                    </td>
+                    <td  width="30%">
+                        <input type="text" name="txtcity">
+                    </td> 
+                    <td width="10%">
+                        Region or country &nbsp;&ast;                        
+                    </td>
+                    <td  width="30%">
+                        <input type="text" name="txtcountry">
+                    </td>                
+                                       
+                </tr>
+                <tr>
+                    <td width="10%">
+                        state or Province &nbsp;&ast;                        
+                    </td>
+                    <td  width="30%">
+                        <input type="text" name="txtstate">
+                    </td> 
+                    <td width="10%">
+                        District &nbsp;&ast;                        
+                    </td>
+                    <td  width="30%">
+                        <input type="text" name="txtdistrict">
+                    </td>  
+                </tr>
+                <tr>
+                    <td width="10%">
+                        ZipCode &nbsp;&ast;                        
+                    </td>
+                    <td  width="30%">
+                        <input type="text" name="txtzipcode">
+                    </td> 
+                    <td width="10%">
+                        Email ID &nbsp;&ast;                        
+                    </td>
+                    <td  width="30%">
+                        <input type="email" name="txtEmail">
+                    </td>  
+                </tr>
+                <tr>
+                    <td width="10%">
+                        Mobile No. &nbsp;&ast;                        
+                    </td>
+                    <td  width="30%">
+                        <input type="text" name="txtmobile">
+                    </td> 
+                    <td width="10%">
+                        Phone No. &nbsp;&ast;                        
+                    </td>
+                    <td  width="30%">
+                        <input type="email" name="txtphone">
+                    </td>  
+                </tr>
+            </table>
+            <br>
+            <table width="100%" align="center">                
+                <tr  bgcolor="purple">
+                    <td >
+                        <strong>Self Declaration</strong>                      
+                    </td>                    
+                </tr>
+            </table>
+            <br>            
+            <table width="100%" border="1">
+                <tr>
+                    <td>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                           Excepturi recusandae laboriosam suscipit maxime dolorem unde minima mollitia doloribus voluptatem reprehenderit numquam, minus iusto. Voluptatem, veniam non id tempore dolor adipisci.
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                           Excepturi recusandae laboriosam suscipit maxime dolorem unde minima mollitia doloribus voluptatem reprehenderit numquam, minus iusto. Voluptatem, veniam non id tempore dolor adipisci.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <input type="checkbox" name="chckAgree"> I Agree</td>
+                    
+                </tr>
+            </table>
+            <table width="100%" align="center">                   
+                <tr>
+                    <td width="10%">
+                        Place &nbsp;&ast;                        
+                    </td>
+                    <td  width="30%">
+                        <input type="text" name="txtPlace">
+                    </td> 
+                    <td width="10%">
+                        Date (DD/MM/YYYY) &nbsp;&ast;                        
+                    </td>
+                    <td  width="30%">
+                        <input type="date" name="txtDate">
+                    </td>  
+                </tr>
+            </table>
+            <br>
+            <table width="100%" align="center">                
+                <tr  bgcolor="purple">
+                    <td >
+                        <strong>Online Payment</strong>                      
+                    </td>                    
+                </tr>
+            </table>
+            <br>      
+            <table width="100%" align="center">
+                <tr>
+                    <td width="10%" align="center">
+
+                        <a href="Payment.html" target="targetwindow"><button type="button">Make Payment</button></a>
+                        
+                        <input type="checkbox" name="chckAgree" disabled> Payment Done               
+                    </td> 
+                    <td width="30%" align="center" style="color: red;" >
+                        <strong>Note:</strong> Make payment before you submit your form.
+                    </td>
+                </tr>
+            </table>    
+        <br>
+        <table width="100%" align="center">                
+            <tr >
+                <td width="20%" align ="right">
+                    <input type="reset" value="Reset">                  
+                </td> 
+                <td width="20%" align ="left">
+                    <input type="submit" value="submit">&nbsp; 
+                    <a href="Home.html" target="targetwindow">Back to Home</a>                                 
+                </td>                                    
+            </tr>
+             
+        </table>
+        <br> 
+        </form>
+    </body>
+</html>

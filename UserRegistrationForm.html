@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SarKarSevakKendra-New User Registration</title>
+
+        <link rel="icon" type="images/x-icon" href="IMG/Tlogo_600px.jpeg" />
+    </head>
+    <body style="color:orange ;" bgcolor="black">
+
+        <table width="100%">
+            <tr bgcolor="purple">
+                <td align="center"><strong> User Registration</strong></td>
+            </tr>
+        </table>
+        
+        
+        <form method="post" enctype="multipart/form-data">  <!--Changed Encodingtype for Photo transfer-->
+            <table width="30%" align="center">
+                <tr>
+                    <td align="right">
+                        <strong>FirstName&ast;:</strong> 
+                    </td>
+                    <td>                            
+                        <input type="text" name="txtfirstname" placeholder="Enter your First name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <strong>LastName&ast;:</strong> 
+                    </td>
+                    <td>                            
+                        <input type="text" name="txtlastname" placeholder="Enter your Last name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <strong>Date Of Birth&ast;:</strong> 
+                    </td>
+                    <td>                            
+                        <input type="date" name="txtdob"  required>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <strong>Gender:</strong> 
+                    </td>
+                    <td>                            
+                        <input type="radio" name="rbgender" Value="Male" checked>Male &nbsp;
+                        <input type="radio" name="rbgender" Value="Female">Female &nbsp;
+                        <input type="radio" name="rbgender" Value="Other">Other
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <strong>Nationality:</strong> 
+                    </td>
+                    <td>                            
+                        <select name="drpnationality" id="">
+                            <option value="USA"> United states of America</option>
+                            <option value="UK"> United Kingdom</option>
+                            <option value="CH"> China</option>
+                            <option value="JPN"> Japan</option>
+                            <option value="IND"> India</option>
+                            <option value="QR"> Qatar</option>
+                            <option value="Pak"> Pakistan</option>
+                            <option value="BNG"> Bangladesh</option>
+                            <option value="NP">Nepal</option>
+                            <option value="SL"> SriLanka</option>
+                            
+                        </select>
+                        
+                    </td>
+                </tr>
+                               
+                <tr>
+                    <td align="right">
+                        <strong>Profile Picture:</strong> 
+                    </td>
+                    <td>                            
+                        <input type="file" name="profilephoto" accept="image/png, image/jpeg">
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <strong>Mobile Number&ast;:</strong>
+                    </td>
+                    <td>                            
+                        <input type="number" name="txtTel" required>
+                    </td>
+                </tr> 
+                
+                <tr>
+                    <td align="right">
+                        <strong>Password&ast;:</strong>
+                    </td>
+                    <td>                            
+                        <input type="password" name="txtpswrd" required>
+                    </td>
+                </tr>  
+                <tr>
+                    <td align="right">
+                        
+                    </td>
+                    <td>                            
+                        <input type="range" name="chkpswd"> strong password
+                    </td>
+                </tr> 
+                <tr>
+                    <td align="right">
+                        
+                    </td>
+                    <td>                            
+                        <input type="checkbox" name="txtrobot"> I'm not a Robot
+                    </td>
+                </tr>
+            </table>
+            <table width=100%  >
+                <tr >
+                    <td align="center">                            
+                        <input type="submit" value="Register">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
